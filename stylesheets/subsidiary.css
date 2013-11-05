@@ -1,0 +1,88 @@
+p {
+  text-indent: 20px;
+  font-size: 15px;
+  line-height: 26px;
+  color: silver;
+}
+
+#member {
+  margin: 2px 0px 0px 251px;
+}
+
+.selectBar {
+  background: url("../images/liveSectionBg1.jpg") center top no-repeat;
+}
+.selectBar div {
+  width: 950px;
+  height: 220px;
+  margin: 0px auto;
+}
+.selectBar nav {
+  padding: 100px 0px 0px 0px;
+  margin: 0px 55px;
+}
+.selectBar nav ul li {
+  padding: 0px 40px;
+}
+.selectBar nav ul #selectspace {
+  padding-right: 190px;
+}
+
+#liveGameBg {
+  background: url("../images/liveGameSectionBg2.jpg") center top no-repeat;
+}
+
+#liveGames {
+  background: #0f0d0d url("../images/liveGameSectionBg2.jpg") center top no-repeat;
+  width: 950px;
+  height: auto;
+  margin: 0px auto;
+}
+#liveGames article {
+  padding: 0px 81px 30px 81px;
+}
+
+figure {
+  background: transparent;
+  padding: 5px;
+  margin: 10px 8px;
+  float: left;
+}
+figure div {
+  background: #1a1a1a url("../images/blackPlate.jpg") center top no-repeat;
+  width: 290px;
+  height: auto;
+}
+figure div h1 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  word-spacing: 8px;
+}
+figure div p {
+  font-size: 13px;
+  padding: 0px 18px 24px 18px;
+  margin: 0px;
+}
+figure:hover {
+  background-color: #e90a6f;
+}
+
+#groupBottom {
+  clear: both;
+  height: 1px;
+}
+
+.gameGroup {
+  width: 950px;
+  margin: 0px auto;
+}
+
+footer {
+  background: #0f0d0e url("../images/liveGameFooter.jpg") right bottom no-repeat;
+  padding: 0px;
+  height: 190px;
+  width: 950px;
+  margin: 0 auto;
+}

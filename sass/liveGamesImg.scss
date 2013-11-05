@@ -1,0 +1,10 @@
+@import "live/*.png";
+@include all-live-sprites;
+span{
+	display: inline-block;
+	width: 290px;
+	height: 140px;
+	font-size: 30px;
+	font-weight: bold;
+	color: red;
+}

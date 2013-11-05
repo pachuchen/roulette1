@@ -1,0 +1,144 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+  width: 1300px;
+  margin: 0px auto;
+  background-color: #0b0404;
+  font-size: 14px;
+  color: #f5ca5f;
+  background: #0b0404 url("../images/homeBackGroung.jpg") center top no-repeat;
+  font-family: Arial,"微軟正黑體", "新細明體", "Lucida Sans Unicode", Helvetica, Verdana, sans-serif;
+}
+
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  height: 120px;
+}
+header img {
+  float: left;
+  margin: 0px 0px 0px 23px;
+}
+header #member {
+  width: 506px;
+  height: 120px;
+  background: url("../images/navBg.png") center bottom no-repeat;
+  float: left;
+}
+header #member ul {
+  margin: 95px 0px 0px 127px;
+}
+header #member ul li {
+  float: left;
+  padding: 0px 24px 0px 0px;
+  font-size: 15px;
+  font-weight: bold;
+}
+header #member ul li a {
+  color: #f5ca5f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+header #member ul li a:hover {
+  color: #E90A6F;
+  text-decoration: underline;
+}
+
+section {
+  background: url("../images/contentBg.jpg") center top no-repeat;
+  margin: 0px auto;
+}
+section li {
+  float: left;
+}
+section div {
+  height: 373px;
+}
+section nav {
+  margin: 0px 0px 0px 142px;
+}
+
+#logo {
+  width: 357px;
+  height: 183px;
+  float: left;
+  margin: 0px 0px 0px 153px;
+  background: url("../images/logo.png") center top no-repeat;
+  z-index: 0;
+}
+
+footer {
+  clear: both;
+  padding: 11px 160px;
+}
+footer p {
+  color: #f5ca5f;
+  padding: 140px 0px 0px 0px;
+  text-align: center;
+}
+
+.hideWords {
+  display: none;
+}

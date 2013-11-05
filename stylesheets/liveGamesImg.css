@@ -1,0 +1,52 @@
+.live-sprite, .live-game_live_baccarat, .live-game_live_bb, .live-game_live_bb3d, .live-game_live_dt, .live-game_live_mahjong, .live-game_live_roulette, .live-game_live_sedie, .live-game_live_sicbo, .live-game_live_texas, .live-game_live_wenzhou {
+  background: url('../images/live-s4d0731e1be.png') no-repeat;
+}
+
+.live-game_live_baccarat {
+  background-position: 0 -980px;
+}
+
+.live-game_live_bb {
+  background-position: 0 -560px;
+}
+
+.live-game_live_bb3d {
+  background-position: 0 -1260px;
+}
+
+.live-game_live_dt {
+  background-position: 0 -840px;
+}
+
+.live-game_live_mahjong {
+  background-position: 0 -280px;
+}
+
+.live-game_live_roulette {
+  background-position: 0 0;
+}
+
+.live-game_live_sedie {
+  background-position: 0 -420px;
+}
+
+.live-game_live_sicbo {
+  background-position: 0 -140px;
+}
+
+.live-game_live_texas {
+  background-position: 0 -1120px;
+}
+
+.live-game_live_wenzhou {
+  background-position: 0 -700px;
+}
+
+span {
+  display: inline-block;
+  width: 290px;
+  height: 140px;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}
